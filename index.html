@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Movie Search App</h1>
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="Enter movie title...">
+      <button id="search-button">Search</button>
+    </div>
+    <div id="error-message" class="error-message"></div>
+    <div id="results" class="results"></div>
+    <button id="load-more" class="load-more">Load More</button>
+    <div id="loading-spinner" class="loading-spinner"></div>
+  </div>
+
+  <!-- Modal for Movie Details -->
+  <div id="movie-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <div id="modal-body"></div>
+      <button id="add-to-favorites" class="favorite-button">Add to Favorites</button>
+    </div>
+  </div>
+
+  <!-- Copyright Section -->
+<footer class="copyright">
+    <p>&copy; Nilesh Nannaware. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
