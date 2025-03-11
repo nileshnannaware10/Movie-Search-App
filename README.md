@@ -3,7 +3,6 @@
 
 A responsive and visually appealing movie search app built using **HTML**, **CSS**, and **JavaScript**. The app fetches movie data from the **OMDb API** and allows users to search for movies, view details, and save favorites.
 
----
 
 ## Features
 
@@ -15,7 +14,6 @@ A responsive and visually appealing movie search app built using **HTML**, **CSS
 - **Error Handling**: Displays user-friendly error messages for invalid searches or API issues.
 - **Loading Spinner**: Shows a loading spinner while fetching data.
 
----
 
 ## Technologies Used
 
